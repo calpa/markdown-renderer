@@ -1,0 +1,19 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "netlify-lambda -p 8081 -c webpack.config.js serve src/lambda/functions",
+    "build": "netlify-lambda build src/lambda/functions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "netlify-lambda": "^0.4.0"
+  },
+  "dependencies": {
+    "highlight.js": "^9.12.0",
+    "remarkable": "^1.7.1"
+  }
+}
