@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "netlify-lambda -p 8081 -c webpack.config.js serve src/lambda/functions",
+    "start": "netlify-lambda -p 8081 -c webpack.config.js serve src",
     "build": "netlify-lambda build src/lambda/functions"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
     "netlify-lambda": "^0.4.0"
   },
   "dependencies": {
